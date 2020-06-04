@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* font-family: 'Roboto', sans-serif;
+
+farbe (background/border): #eee, #ccc 
+farbe text: #659d89, #333, #666, #000
+
+*/
+html {
+    font-size: 18px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-size: 18px;
+    background: #eee;
+}
+/* globale Einstellungen */
+li {
+    font-size: 0.8em;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+section {
+    padding: 0 8%;
+}
+h2 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    padding: 4.5vh 0 0;
+}
+p {
+    font-size: 1em;
+    line-height: 1em;
+}
+
+/* 1 Section mit Nav+H1 */
+section:nth-of-type(1) {
+    margin: 0;
+    height: 100vh;
+}
+nav ul {
+    padding: 30px 0;
+    text-align: left;
+}
+nav li {
+        display: inline-block;
+        padding-right: 2.2em;
+}
+nav a {
+        text-decoration: none;
+        color: #659d89;
+    }
+h1 div span {
+        font-size: 2.4rem;
+        font-weight: 400;
+        color: #659d89;
+        line-height: 3.5rem;
+}
+h1 {
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 2.4rem;
+        padding: 16vh 20vw 0 0;
+}
+ul {
+    text-align: right;
+    line-height: 2rem;
+    padding-top: 5vh;
+}
+section article div p {
+    padding-top: 11vh;
+}
+p span {
+    font-size: 1.8em;
+}
+section:nth-of-type(1) {
+    border-bottom: 1px solid #ccc;
+}
+/* 2 Section mit Nav+H1 */
+section:nth-of-type(2) {
+    margin: 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 9vh;
+}
+section:nth-of-type(2) article img{
+    margin-top: 5vh;
+    width: 25%;
+    margin-right: 5%;
+}
+article img:first-of-type{
+    margin-left: 7.5%;
+}
+/* 3. Section */
+section:nth-of-type(3) {
+    padding-bottom: 10vh;
+    border-bottom: 1px solid #ccc;
+}
+section:nth-of-type(3) article:nth-of-type(1) img {
+    margin: 8vh 0 0;
+    padding-left: 5%;
+    width: 70%;
+}
+section:nth-of-type(3) article:nth-of-type(1) p {
+    padding: 0px 25% 0 5%;
+    font-size: 0.8em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333;
+}
+section:nth-of-type(3) article:nth-of-type(1) h4 {
+    margin: 0;
+    padding: 0px 25% 0 5%;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 400;
+}
+section:nth-of-type(3) article:nth-of-type(3) img {
+    margin: 8vh 0 0;
+    padding-left: 5%;
+    width: 70%;
+}
+section:nth-of-type(3) article:nth-of-type(3) p {
+    padding: 0px 25% 0 5%;
+    font-size: 0.8em;
+    text-align: center;
+    color: #333;
+}
+section:nth-of-type(3) article:nth-of-type(3) h4 {
+    margin: 0;
+    padding: 0px 25% 0 5%;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 400;
+}
+section:nth-of-type(3) article:nth-of-type(2) img {
+    margin: 8vh 0 0;
+    padding-left: 25%;
+    width: 70%;
+}
+section:nth-of-type(3) article:nth-of-type(2) p {
+    padding: 0px 5% 0 25%;
+    font-size: 0.8em;
+    text-align: center;
+    color: #333;
+}
+section:nth-of-type(3) article:nth-of-type(2) h4 {
+    margin: 0;
+    padding: 0px 5% 0 25%;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 400;
+}
+section:nth-of-type(3) article:nth-of-type(4) img {
+    margin: 8vh 0 0;
+    padding-left: 25%;
+    width: 70%;
+}
+section:nth-of-type(3) article:nth-of-type(4) p {
+    padding: 0px 5% 0 25%;
+    font-size: 0.8em;
+    text-align: center;
+    color: #333;
+}
+section:nth-of-type(3) article:nth-of-type(4) h4 {
+    margin: 0;
+    padding: 0px 5% 0 25%;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 400;
+}
+
+section:nth-of-type(3) a {
+    text-decoration: none;
+    color: #333;
+}
+footer p {
+    text-align: center;
+    padding: 8vh 0;
+}
+footer div {
+    text-align: center;
+    font-size: 0.8em;
+    margin-bottom: 12px;
+}
