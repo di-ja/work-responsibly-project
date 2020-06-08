@@ -39,12 +39,16 @@ p {
 }
 
 /* 1 Section mit Nav+H1 */
+.social{
+    width: 30px;
+}
 section:nth-of-type(1) {
     margin: 0;
     height: 100vh;
 }
 nav ul {
-    padding: 30px 0;
+    padding: 0 0;
+    margin: 0;
     text-align: left;
 }
 nav li {
@@ -55,7 +59,7 @@ nav a {
         text-decoration: none;
         color: #659d89;
     }
-h1 div span {
+h1 span {
         font-size: 2.4rem;
         font-weight: 400;
         color: #659d89;
